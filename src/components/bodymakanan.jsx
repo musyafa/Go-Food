@@ -67,7 +67,7 @@ export default class Bodymakanan extends Component {
 
         <br></br>
         <Jumbotron>
-        <h5>Makanan Terpesan</h5>
+        <h5>Makanan yang di pesan</h5>
 
         {this.state.daftar.map((item)=>
         <p>{item.nama} x 1 = {item.price}</p>
