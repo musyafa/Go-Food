@@ -38,8 +38,7 @@ export default class Bodymakanan extends Component {
             number:0
             }
         ],
-        total: 0,
-        barang:""
+        total: 0
     };
 
     tambahTotalHarga= (harga, item) =>{
@@ -67,7 +66,7 @@ export default class Bodymakanan extends Component {
 
         <br></br>
         <Jumbotron>
-        <h5>Makanan yang di pesan</h5>
+        <h5>Makanan Terpesan</h5>
 
         {this.state.daftar.map((item)=>
         <p>{item.nama} x 1 = {item.price}</p>
@@ -81,7 +80,7 @@ export default class Bodymakanan extends Component {
         </Jumbotron>
           <Row>
           {this.state.makanan.map(itemmakanan=>(
-            <Col xs="12" md="6" lg="4">
+            <Col xs="12" md="4" lg="3">
             <Gomakanan
             itemmakanan={itemmakanan}
             tambahTotalHarga={this.tambahTotalHarga}

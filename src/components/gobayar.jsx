@@ -25,7 +25,7 @@ export default class Gobayar extends Component {
       <div align="center">
         <img src="https://static.thenounproject.com/png/610677-200.png"/>
         <h3>Total Pemayaran</h3>
-        <h3 id="totalHarga" />
+        <h3 id="totalHarga"/>
         <hr></hr>
 
         <Button onClick={this.alhamdulillah} color="success" href=".">Bayar</Button>

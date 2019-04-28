@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 import { Card, CardImg, CardText, CardBody,
-    CardTitle, CardSubtitle, Button } from 'reactstrap';
+    CardTitle, CardSubtitle, Button, Container } from 'reactstrap';
 import {Link} from "react-router-dom";
 
 export default class Goapp extends Component {
   render() {
     return (
       <div>
-        <Card style={{margin: "10px"}}>
+        <Card style={{margin: "5px"}}>
         <CardImg top width="100%" src={this.props.gambarapp} alt="Go App" />
         <CardBody>
           <CardTitle>{this.props.namaapp}</CardTitle>

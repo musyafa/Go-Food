@@ -34,7 +34,7 @@ export default class Gomakanan extends Component {
 
     return (
       <div>
-        <Card style={{margin: "10px"}}>
+        <Card style={{margin: "7px"}}>
         <CardImg top width="100%" src={gambar} alt="Go App" />
         <CardBody>
           <CardTitle>{nama}</CardTitle>
